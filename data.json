@@ -1,0 +1,97 @@
+{
+  "site": {
+    "title": "My Portfolio",
+    "author": "Your Name",
+    "footer": "© 2026 Your Name. All rights reserved."
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Your Name",
+    "role": "Developer & Designer",
+    "description": "I build things for the web.",
+    "cta": {
+      "text": "View My Work",
+      "url": "#projects"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "content": [
+      "I'm a passionate developer with experience in building web applications.",
+      "I love creating clean, user-friendly experiences that solve real problems.",
+      "When I'm not coding, you can find me reading, hiking, or experimenting with new technologies."
+    ],
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Python"]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "NPM material-mui-date-range-picker",
+      "description": [
+        "- Developed a Material",
+        "- UI date range picker component.",
+        "- Published as an NPM package for reusable date selection in React applications."
+      ],
+      "tags": ["react", "npm"],
+      "links": [
+        {
+          "text": "View Live Demo",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Infinite Dad Jokes",
+      "description": [
+        "- Created a React",
+        "- Based app for displaying infinite dad jokes.",
+        "- Integrated with TypeScript, Webpack, ESLint, and Jest for a robust development setup."
+      ],
+      "tags": ["react", "typescript", "webpack", "eslint", "jest"],
+      "links": [
+        {
+          "text": "View Live Demo",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Plugin for projects using ngx-translate package",
+      "description": [
+        "- Developed a VSCode plugin to enhance workflows for Angular projects.",
+        "- Focused on utilities for the ngx-translate package."
+      ],
+      "tags": ["vscode", "angular", "github"],
+      "links": [
+        {
+          "text": "View on GitHub",
+          "url": "#"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Get In Touch",
+    "description": "I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll do my best to get back to you!",
+    "email": "your.email@example.com",
+    "social": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/yourusername",
+        "icon": "github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/yourusername",
+        "icon": "linkedin"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/yourusername",
+        "icon": "twitter"
+      }
+    ]
+  }
+}
