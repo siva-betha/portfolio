@@ -26,47 +26,54 @@
   "projects": [
     {
       "id": 1,
-      "title": "NPM material-mui-date-range-picker",
+      "title": "EQUILIBRA PILATES",
+      "subtitle": "Pilates Studio",
+      "category": "Brand Identity",
+      "instructor": "Freya",
+      "duration": "2 weeks",
       "description": [
-        "- Developed a Material",
-        "- UI date range picker component.",
-        "- Published as an NPM package for reusable date selection in React applications."
+        "A modern Pilates studio brand with a strong visual identity"
       ],
-      "tags": ["react", "npm"],
+      "tags": ["branding", "web design"],
       "links": [
         {
-          "text": "View Live Demo",
+          "text": "Book Now",
           "url": "#"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Infinite Dad Jokes",
+      "title": "INVERSE JOURNAL",
+      "subtitle": "Digital Magazine",
+      "category": "Editorial Design",
+      "instructor": "Marcus",
+      "duration": "3 months",
       "description": [
-        "- Created a React",
-        "- Based app for displaying infinite dad jokes.",
-        "- Integrated with TypeScript, Webpack, ESLint, and Jest for a robust development setup."
+        "A minimalist digital magazine focused on art and culture"
       ],
-      "tags": ["react", "typescript", "webpack", "eslint", "jest"],
+      "tags": ["editorial", "ui/ux"],
       "links": [
         {
-          "text": "View Live Demo",
+          "text": "Read More",
           "url": "#"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Plugin for projects using ngx-translate package",
+      "title": "NORDIC ROAST",
+      "subtitle": "Coffee Brand",
+      "category": "Packaging",
+      "instructor": "Elena",
+      "duration": "5 weeks",
       "description": [
-        "- Developed a VSCode plugin to enhance workflows for Angular projects.",
-        "- Focused on utilities for the ngx-translate package."
+        "Sustainable packaging design for a specialty coffee roaster"
       ],
-      "tags": ["vscode", "angular", "github"],
+      "tags": ["packaging", "sustainability"],
       "links": [
         {
-          "text": "View on GitHub",
+          "text": "View Project",
           "url": "#"
         }
       ]
@@ -74,7 +81,7 @@
   ],
   "contact": {
     "title": "Get In Touch",
-    "description": "I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll do my best to get back to you!",
+    "description": "I'm currently looking for new opportunities.",
     "email": "your.email@example.com",
     "social": [
       {

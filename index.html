@@ -7,45 +7,32 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Header/Navigation will go here later -->
+    <!-- Add loading indicator -->
+    <div id="loading" class="loading">Loading...</div>
     
-    <main>
-        <!-- Hero Section -->
+    <main style="display: none;" id="main-content">
         <section id="hero" class="hero-section">
-            <div class="container" id="hero-container">
-                <!-- Hero content will be injected by JavaScript -->
-            </div>
+            <div class="container" id="hero-container"></div>
         </section>
 
-        <!-- About Section -->
         <section id="about" class="about-section">
-            <div class="container" id="about-container">
-                <!-- About content will be injected by JavaScript -->
-            </div>
+            <div class="container" id="about-container"></div>
         </section>
 
-        <!-- Projects Section -->
         <section id="projects" class="projects-section">
             <div class="container">
-                <h2 class="section-title" id="projects-title"></h2>
-                <div class="projects-grid" id="projects-container">
-                    <!-- Projects will be injected by JavaScript -->
-                </div>
+                <div class="projects-grid" id="projects-container"></div>
             </div>
         </section>
 
-        <!-- Contact Section -->
         <section id="contact" class="contact-section">
-            <div class="container" id="contact-container">
-                <!-- Contact content will be injected by JavaScript -->
-            </div>
+            <div class="container" id="contact-container"></div>
         </section>
     </main>
 
-    <footer id="footer-container">
-        <!-- Footer will be injected by JavaScript -->
-    </footer>
+    <footer id="footer-container"></footer>
     
+    <!-- Load scripts in order -->
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>
 </body>
