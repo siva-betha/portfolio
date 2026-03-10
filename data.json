@@ -6,9 +6,9 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "name": "Your Name",
-    "role": "Developer & Designer",
-    "description": "I build things for the web.",
+    "name": "Siva Betha",
+    "role": "Backend Engineer | Distributed Systems",
+    "description": "I build scalable backend platforms and real-time data pipelines using Kafka, Node.js, and cloud infrastructure.",
     "cta": {
       "text": "View My Work",
       "url": "#projects"
@@ -21,59 +21,96 @@
       "I love creating clean, user-friendly experiences that solve real problems.",
       "When I'm not coding, you can find me reading, hiking, or experimenting with new technologies."
     ],
-    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Python"]
+    "skills": [
+      "Node.js",
+      "NestJS",
+      "Kafka",
+      "Distributed Systems",
+      "Time-Series Databases",
+      "InfluxDB",
+      "PostgreSQL",
+      "MongoDB",
+      "Docker",
+      "AWS",
+      "WebSockets",
+      "Event-Driven Architecture"
+    ]
   },
   "projects": [
     {
       "id": 1,
-      "title": "EQUILIBRA PILATES",
-      "subtitle": "Pilates Studio",
-      "category": "Brand Identity",
-      "instructor": "Freya",
-      "duration": "2 weeks",
+      "title": "REAL-TIME TELEMETRY STREAMING PLATFORM",
+      "subtitle": "Industrial IoT Data Pipeline",
+      "category": "Distributed Systems",
+      "instructor": "Personal Project",
+      "duration": "Ongoing",
       "description": [
-        "A modern Pilates studio brand with a strong visual identity"
+        "Designed a streaming platform that ingests machine telemetry data at 50ms intervals.",
+        "Built an event-driven pipeline using Kafka and processed time-series data using InfluxDB.",
+        "Implemented WebSocket based visualization for real-time dashboards."
       ],
-      "tags": ["branding", "web design"],
+      "tags": [
+        "Kafka",
+        "InfluxDB",
+        "NestJS",
+        "WebSockets",
+        "Docker"
+      ],
       "links": [
         {
-          "text": "Book Now",
-          "url": "#"
+          "text": "View GitHub",
+          "url": "https://github.com/siva-betha/telemetry-platform"
         }
       ]
     },
     {
       "id": 2,
-      "title": "INVERSE JOURNAL",
-      "subtitle": "Digital Magazine",
-      "category": "Editorial Design",
-      "instructor": "Marcus",
-      "duration": "3 months",
+      "title": "EVENT-DRIVEN ANALYTICS PLATFORM",
+      "subtitle": "Time-Series Data Visualization",
+      "category": "Data Engineering",
+      "instructor": "Client System (Redacted)",
+      "duration": "Production System",
       "description": [
-        "A minimalist digital magazine focused on art and culture"
+        "Built a real-time analytics system to visualize PLC machine data from semiconductor etching processes.",
+        "Designed Kafka-based ingestion pipeline with Telegraf and InfluxDB.",
+        "Enabled high-frequency data capture and visualization with minimal latency."
       ],
-      "tags": ["editorial", "ui/ux"],
+      "tags": [
+        "Kafka",
+        "InfluxDB",
+        "Telegraf",
+        "React",
+        "Python"
+      ],
       "links": [
         {
-          "text": "Read More",
+          "text": "Architecture",
           "url": "#"
         }
       ]
     },
     {
       "id": 3,
-      "title": "NORDIC ROAST",
-      "subtitle": "Coffee Brand",
-      "category": "Packaging",
-      "instructor": "Elena",
-      "duration": "5 weeks",
+      "title": "DOCUMENT PROCESSING PIPELINE",
+      "subtitle": "AI Document Parsing Tool",
+      "category": "Backend Systems",
+      "instructor": "Company Internal Tool",
+      "duration": "Production",
       "description": [
-        "Sustainable packaging design for a specialty coffee roaster"
+        "Developed backend services for document ingestion and parsing.",
+        "Integrated AWS S3 and Lambda for serverless processing pipelines.",
+        "Implemented session management and secure API architecture."
       ],
-      "tags": ["packaging", "sustainability"],
+      "tags": [
+        "NestJS",
+        "AWS",
+        "S3",
+        "Lambda",
+        "PostgreSQL"
+      ],
       "links": [
         {
-          "text": "View Project",
+          "text": "System Overview",
           "url": "#"
         }
       ]
